@@ -24,7 +24,7 @@ public class Payments extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+   
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -333,15 +333,14 @@ public class Payments extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
+    }
     private void AmountTbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AmountTbActionPerformed
      
-    }//GEN-LAST:event_AmountTbActionPerformed
+    }
 
     private void DeleteBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteBtnActionPerformed
         
-    }//GEN-LAST:event_DeleteBtnActionPerformed
+    }
  public int generateKey() {
         Random random = new Random();
         return random.nextInt(1000); 
